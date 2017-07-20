@@ -1,6 +1,7 @@
 package com.test;
 
 import java.util.Date;
+import java.util.Random;
 
 public class TestGC {
 
@@ -9,7 +10,8 @@ public class TestGC {
 		Long totalMemory = Runtime.getRuntime().totalMemory();
 		System.out.println("maxMemory:"+maxMemory+"byte,"+maxMemory/1024/1024+"MB");
 		System.out.println("total:"+totalMemory+"byte,"+totalMemory/1024/1024+"MB");*/
-		/*String str ="abc";
+	/*	String str ="abc";
+		str.toString();
 		while(true) {
 			str +=str+new Random().nextInt(666666);
 		}*/
